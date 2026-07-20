@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 NUM_POSITIONS = 10
-DATA_DIR = "/Users/tanayagrawal/Desktop/wifi performance/Captured data"  
+DATA_DIR = "/Users/tanayagrawal/Desktop/wifi_performance/captured_data"  
 results = []
 
 def get_retransmission_rate(pcap_path):

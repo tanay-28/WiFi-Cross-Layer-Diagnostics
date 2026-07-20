@@ -46,7 +46,7 @@ def parse_throughput_averages(file_path):
 
 def main():
     
-    base_dir = "/Users/tanayagrawal/Desktop/wifi performance/bufferbloat" 
+    base_dir = "/Users/tanayagrawal/Desktop/wifi_performance/bufferbloat" 
     
     ping_file = os.path.join(base_dir, "ping_terminal_output.rtf")
     stress_file = os.path.join(base_dir, "bufferbloat stress terminal output.rtf")

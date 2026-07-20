@@ -88,7 +88,7 @@ def main():
         "position_7": 10.25
     }
     
-    pcap_dir = "/Users/tanayagrawal/Desktop/wifi performance/Captured data"
+    pcap_dir = "/Users/tanayagrawal/Desktop/wifi_performance/captured_data"
     
     ul_throughput = []
     ul_rtt = []

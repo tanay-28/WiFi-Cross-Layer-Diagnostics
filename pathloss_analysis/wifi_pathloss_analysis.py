@@ -26,7 +26,7 @@ def main():
         "position_7": 10.25
     }
     
-    csv_path = "/Users/tanayagrawal/Desktop/wifi performance/Pathloss Analysis/pcap_loss_report.csv"
+    csv_path = "/Users/tanayagrawal/Desktop/wifi_performance//pathloss_analysis/pcap_loss_report.csv"
     if not os.path.exists(csv_path):
         print(f"[-] Error: '{csv_path}' not found. Please verify the path.")
         return
@@ -106,7 +106,7 @@ def main():
                  fontweight='bold', fontsize=14, y=0.98)
     plt.tight_layout()
     
-    output_png = "/Users/tanayagrawal/Desktop/wifi performance/Pathloss Analysis/spatial_sequence_anomaly_map.png"
+    output_png = "/Users/tanayagrawal/Desktop/wifi_performance//pathloss_analysis/spatial_sequence_anomaly_map.png"
     plt.savefig(output_png, dpi=300)
     print(f"[+] Walking sequence visualization saved to: {output_png}")
     plt.show()

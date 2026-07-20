@@ -65,7 +65,7 @@ def get_retransmission_rate(pcap_path):
 
 
 def main():    
-    base_dir = "/Users/tanayagrawal/Desktop/wifi performance/bdp_test" 
+    base_dir = "/Users/tanayagrawal/Desktop/wifi_performance/bdp_test" 
     
     bdp_files = {
         "16KB Choked Window": {
